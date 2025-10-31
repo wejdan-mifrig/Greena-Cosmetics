@@ -1,0 +1,245 @@
+body{
+margin: 0;
+padding: 0;
+background-image: url('/img/img0.jpg');
+background-size: 600px;
+}
+
+#parent{
+margin-top:110px;
+}
+
+
+
+#btn{
+border: 2px solid rgb(228, 122, 139);
+background-color:  rgb(240, 204, 204);
+cursor: pointer;
+position: fixed;
+right: 10px;
+bottom: 10px;
+padding: 15px;
+border-radius:50px;
+color:rgb(109, 80, 99);
+box-shadow: 0px 6px 15px  rgba(0, 0, 0, 0.544);
+z-index: 999;
+opacity: 0;
+visibility: hidden;
+transition: all 0.4s ease;
+}
+
+
+
+#btn.show {
+opacity: 1;
+visibility: visible;
+}
+
+#btn:hover{
+background-color: rgb(205, 184, 187);   
+}
+
+/* start nav */
+#nav{
+display: flex;
+background-color: none;
+justify-content: space-between;
+border-radius: 10px;
+position:fixed;
+width: 100%;
+height: 110px;
+top: 0;
+opacity: 0;
+transform: translateY(-50px);
+animation: slidedown 2s ease forwards;
+backdrop-filter: blur(5px);
+border: 2px rgb(208, 139, 139) solid;
+}
+
+@keyframes slidedown {
+to{
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+
+#nav>img{
+width: 100px;
+margin-left: 60px;
+}
+
+#nav>ul{
+list-style: none;
+display: flex;
+gap: 50px;
+margin-right: 50px;
+align-items: center;
+}
+
+
+.bas1{
+font-size: x-large;
+}
+
+
+
+#nav a{
+text-decoration: none;
+padding: 25px;
+color: rgb(28, 99, 75);
+font-family: serif;
+border-radius: 30px;
+}
+
+#nav ul li a:hover{
+text-decoration: underline;
+}
+
+/* end nav */
+/* start main */
+/* start intro */
+#intro{
+background-color: rgb(240, 204, 204);
+box-shadow: 0px 6px 15px  rgba(0, 0, 0, 0.544);
+padding-bottom: 20px;
+}
+
+
+
+#intro img{
+width: 150px;
+height:150px;
+padding-left:700px;
+}
+
+#intro pre{
+padding-left:430px ;
+font-family: 'Lora', serif;
+color: rgb(50, 91, 50);
+}
+
+#preidte{
+margin-left: 100px;
+}
+
+#preidte1{
+margin-left: 50px;
+}
+
+
+/* end intro */
+/* start card */
+/* start hair cards */
+#hair{
+margin: 70px;  
+display: flex;
+text-align:  center;
+align-items: center;
+gap: 30px;
+}
+
+#hair div {
+background-color: rgb(255, 255, 255);
+justify-items: center;
+padding: 20px;
+padding-bottom: 50px;
+margin-left: 25px;
+border-radius: 20px;
+
+}
+
+#head1{
+margin: 60px; 
+margin-left: 680px;
+color: rgb(58, 101, 58);
+
+}
+
+#spanq{
+background-color:rgb(240, 204, 204);
+padding:5px 10px ;
+border-radius:10px;
+}
+
+#hair img{
+width:250px;
+height:250px;
+border-radius: 60px;
+border: 2px rgb(208, 139, 139) solid;
+}
+
+#hair div button{
+border: 2px solid rgb(188, 118, 118);
+background-color:rgb(253, 214, 222);
+cursor: pointer;
+border-radius:40px ;
+color:rgb(109, 80, 99); 
+box-shadow: 0px 6px 15px  rgba(0, 0, 0, 0.544);
+padding: 15px 20px 15px 20px ;
+margin-top: 20px;
+}
+
+#hair div button:hover{
+background-color: rgb(222, 222, 222);
+}
+
+#hair div pre{
+color:rgb(109, 80, 99); 
+font-family: serif;
+}
+
+#hair div h2{
+color:rgb(109, 80, 99); 
+font-family: serif;
+font-size: 20px;
+}
+
+.cardd{
+display: flex;
+flex-direction: column;
+box-shadow: 0px 6px 15px  rgba(0, 0, 0, 0.544);
+
+}
+.cardd1{
+text-decoration: none;
+color:rgb(109, 80, 99); 
+}
+
+.cardd1:hover{
+text-decoration: underline;   
+}
+/* end hair products */
+/* start footer */
+#footer{
+padding-left:10px;    
+padding-top: 50px ; 
+padding-bottom: 50px;
+display: flex;
+gap:70px; 
+align-items: center;
+justify-content: center; 
+backdrop-filter: blur(5px);
+border: 2px rgb(208, 139, 139) solid;
+}
+
+
+#footer p img {
+width: 15px;
+height:15px;
+}
+
+#footer p{
+color:  rgb(87, 63, 79);
+}
+
+#footer a{
+text-decoration: none; 
+color:  rgb(87, 63, 79);
+}
+
+#footer a:hover{
+text-decoration: underline;
+}
+
+/* end footer */
