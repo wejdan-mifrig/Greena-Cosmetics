@@ -129,8 +129,8 @@ margin-left: 50px;
 
 
 /* end intro */
-/* start card */
-/* start hair cards */
+/* start product cards */
+
 #hair{
 margin: 70px;  
 display: flex;
@@ -209,7 +209,7 @@ color:rgb(109, 80, 99);
 .cardd1:hover{
 text-decoration: underline;   
 }
-/* end hair products */
+/* end products */
 /* start footer */
 #footer{
 padding-left:10px;    
