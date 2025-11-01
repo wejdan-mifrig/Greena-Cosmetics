@@ -1,7 +1,7 @@
 
 var nav = document.getElementById("nav");
 function Scroll1() {
-if (window.scrollY >70) {
+if (window.scrollY >50) {
 nav.style.top = "-500px"; 
 } else {
 nav.style.top = "0";
